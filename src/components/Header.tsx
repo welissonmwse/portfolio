@@ -1,3 +1,5 @@
+import { Link } from "./Link";
+
 export function Header(){
   return (
     <header className="backdrop-blur-sm bg-white/5">
@@ -10,16 +12,16 @@ export function Header(){
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium ">
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 font-semibold font-poppins text-blue-light rounded hover:text-blue md:hover:bg-transparent md:border-0 ">Home</a>
+                <Link to="/" >Home</Link>
               </li>
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 font-semibold font-poppins text-blue-light rounded hover:text-blue md:hover:bg-transparent md:border-0 ">Sobre</a>
+                <Link to="/about" >Sobre</Link>
               </li>
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 font-semibold font-poppins text-blue-light rounded hover:text-blue md:hover:bg-transparent md:border-0 ">Projetos</a>
+                <Link to="/projects" >Projetos</Link>
               </li>
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 font-semibold font-poppins text-blue-light rounded hover:text-blue md:hover:bg-transparent md:border-0 ">Contato</a>
+                <Link to="/contact" >Contato</Link>
               </li>
             </ul>
           </div>
