@@ -1,11 +1,11 @@
 import { Header } from "./components/Header";
-import { Home } from "./pages/Home";
+import { Router } from "./Router";
 
 export function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Router />
     </>
   )
 }
