@@ -8,9 +8,9 @@ import { CardProject } from '../components/CardProject'
 
 export function Projects(){
   return (
-    <section className="max-w-6xl py-8 m-auto h-full">
+    <section className="max-w-6xl py-8 px-4 m-auto h-full">
       <h1 className="text-blue-light font-raleway font-bold text-4xl text-center">Meus Projetos</h1>
-      <div className="grid grid-cols-3 gap-8 mt-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
         <CardProject title="Github Blog" src={GitHubBlogImg} link="https://github.com/welissonmwse/github-blog" />
         <CardProject title="DT Money" src={DtMoneyImg} link="https://github.com/welissonmwse/dt-money" />
         <CardProject title="Coffee Delivery" src={CoffeeDeliveryImg} link="https://github.com/welissonmwse/coffee-delivery" />
