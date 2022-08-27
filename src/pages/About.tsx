@@ -6,22 +6,22 @@ import { CardTool } from '../components/CardTool'
 
 export function About(){
   return (
-    <main className="max-w-6xl py-8 m-auto h-full">
-      <div className="flex gap-16 items-center">
+    <main className="max-w-6xl py-8 px-4 m-auto h-full">
+      <div className="flex gap-16 items-center flex-col lg:flex-row">
         <img className="img-fluid" src={AvatarImg} alt="Avatar"/>
         
         <div>
-          <h1 className="md:hidden">Sobre mim</h1>
-          <p className="text-2xl text-white font-bold font-raleway">
+          <h1 className="text-blue-light font-raleway font-bold text-4xl text-center m-8">Sobre mim</h1>
+          <p className="text-xl md:text-2xl text-white font-bold font-raleway">
             Olá! Meu nome é Welisson Silveira, tenho 26 anos e moro em Brasília - DF. <br/> 
             Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (Unip).<br/>
             Atualmente trabalho como Desenvolvedor Frontend.
           </p>
         </div>
       </div>
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         <div>
-          <p className="text-2xl text-white font-bold font-raleway">
+          <p className="text-xl md:text-2xl text-white font-bold font-raleway">
             Venho estudando e desenvolvendo aplicações Web acerca de 3 anos.<br />
 
             Tenho experiência nas linguagens:<span className="text-blue-light"> HTML, CSS, Javascript e Typescript</span><br />
@@ -30,12 +30,12 @@ export function About(){
             Minhas áreas de interesse são a construção de novas tecnologias e aplicações para a Web.<br />
           </p>
         </div>
-        <img className="min-w-fit" src={FrameAbout} alt=""/>
+        <img className="w-full mt-8 md:mt-0 md:min-w-fit" src={FrameAbout} alt=""/>
         
       </div>
       <div className="mt-28">
         <h2 className="text-blue-light font-raleway font-bold text-4xl text-center">Ferramentas que eu uso</h2>
-        <div className="grid grid-cols-5 gap-8 mt-10">
+        <div className="grid grid-cols-2 items-end md:grid-cols-3 lg:grid-cols-5 gap-8 mt-10">
           <CardTool title="JAVASCRIPT">
             <FaJs size={74} />
           </CardTool>
