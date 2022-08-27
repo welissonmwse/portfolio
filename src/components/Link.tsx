@@ -6,8 +6,8 @@ export function Link({ children, to, ...props }: LinkProps) {
 
   return (
     <NavLink
-      className={`${match ? 'text-white' : 'text-blue-light'} 
-        block py-2 pr-4 pl-3 font-semibold font-poppins rounded 
+      className={`${match ? 'text-white' : 'text-blue-light'}
+        flex gap-2 py-2 pr-4 pl-3 font-semibold font-poppins rounded 
         hover:text-blue md:hover:bg-transparent md:border-0
       `}
       to={to}
