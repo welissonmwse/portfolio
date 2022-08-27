@@ -5,4 +5,6 @@
 body {
   background: rgb(76,2,241);
   background: linear-gradient(to left, rgba(6,4,74,1), rgba(76,2,241,1));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
