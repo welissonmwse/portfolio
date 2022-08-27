@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 export function Footer(){
   return (
     <footer className="bg-blue-dark">
-      <div className="flex items-center justify-between max-w-6xl py-6 m-auto">
+      <div className="flex flex-col md:flex-row items-center justify-between max-w-6xl py-6 px-4 m-auto">
         <p className="text-white font-raleway font-light text-base">
           Projetado e desenvolvido por Welisson 
         </p>
