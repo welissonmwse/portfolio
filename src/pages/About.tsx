@@ -3,6 +3,7 @@ import {SiStyledcomponents, SiTailwindcss, SiTypescript, SiVisualstudiocode} fro
 import AvatarImg from '../assets/avatar.png'
 import FrameAbout from '../assets/frameAbout.png'
 import { CardTool } from '../components/CardTool'
+
 export function About(){
   return (
     <main className="max-w-6xl py-8 m-auto h-full">
