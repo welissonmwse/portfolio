@@ -3,7 +3,7 @@ import FrameImg from '../assets/frame.png'
 
 export function Home() {
   return (
-    <section className="max-w-6xl py-8 m-auto h-full">
+    <section className="max-w-6xl py-8 m-auto min-h-screen">
       <div className="flex justify-between items-center h-full">
         <div className="flex-1">
           <h1 className="font-raleway font-bold text-white text-5xl">
