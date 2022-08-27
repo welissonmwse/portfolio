@@ -13,7 +13,7 @@ export function About(){
         <div>
           <h1 className="text-blue-light font-raleway font-bold text-4xl text-center m-8">Sobre mim</h1>
           <p className="text-xl md:text-2xl text-white font-bold font-raleway">
-            Olá! Meu nome é Welisson Silveira, tenho 26 anos e moro em Brasília - DF. <br/> 
+            Olá! Meu nome é Welisson Silveira, tenho 27 anos e moro em Brasília - DF. <br/> 
             Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (Unip).<br/>
             Atualmente trabalho como Desenvolvedor Frontend.
           </p>

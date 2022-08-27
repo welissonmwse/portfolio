@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {VscHome, VscPerson} from 'react-icons/vsc'
 import {MdOutlineComputer} from 'react-icons/md'
 import { Link } from "./Link";
@@ -22,7 +22,10 @@ export function Header(){
             <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
           </button>
           <div className={`${isMenuVisibility ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
-            <ul className="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium ">
+            <ul 
+              className="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium "
+              onClick={() => setIsMenuVisibility(false)}
+            >
               <li>
                 <Link to="/" >
                   <VscHome size={20} />
